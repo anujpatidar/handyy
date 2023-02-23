@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Handyy</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="stylesheet" href="loco.css">
 
@@ -102,7 +100,10 @@
                         <div id="space">
                             <div id="blank"></div>
                             <div id="heading">
-                                <h2 id="#text2">Bestselling Items</h2>
+                                <div id="bl">
+
+                                    <h2 id="text2">Bestselling Items</h2>
+                                </div>
                                 <img id="line" src="./Products/cart.png" alt="">
                             </div>
                         </div>
@@ -120,11 +121,11 @@
                         var j = 0, text2;
                         text2 = document.querySelector("#text2").textContent + " ";
                         function typing2() {
-                            if (j < text.length) {
-                                document.getElementById("text2").innerHTML += text.charAt(j);
+                            if (j < text2.length) {
+                                document.getElementById("text2").innerHTML += text2.charAt(j);
                                 j++
-                                setTimeout(typing, 120);
-                                if (j == text.length) {
+                                setTimeout(typing2, 120);
+                                if (j == text2.length) {
                                     j = 0;
                                     document.getElementById("text2").innerHTML = "";
                                 }
@@ -266,6 +267,36 @@
                 
                 
                 </footer>
+                </div>
+    
+            </div>
+            <div id="bgimg">
+                <div id="bg">
+                    <img class="circle" id="c1" src="./circle1.png" alt="">
+                    <img class="circle" id="c2" src="./circle2.png" alt="">
+                    <img class="circle" id="c5" src="./circle2.png" alt="">
+                    <img class="circle" id="c3" src="./circle3.png" alt="">
+                    <img class="circle" id="c4" src="./circle3.png" alt="">
+                    <!-- <img src="./border.png" id="b1" alt="">
+                            <img src="./border.png" id="b1" class="bc2" alt="">
+                            <img src="./border.png" id="b1" class="bc3" alt=""> -->
+                    <img class="bg" src="./bg.jpg" alt="">
+    
+                </div>
+    
+            </div>
+            <div id="bgimg">
+                <div id="bg">
+                    <img class="circle" id="c1" src="./circle1.png" alt="">
+                    <img class="circle" id="c2" src="./circle2.png" alt="">
+                    <img class="circle" id="c5" src="./circle2.png" alt="">
+                    <img class="circle" id="c3" src="./circle3.png" alt="">
+                    <img class="circle" id="c4" src="./circle3.png" alt="">
+                    <!-- <img src="./border.png" id="b1" alt="">
+                            <img src="./border.png" id="b1" class="bc2" alt="">
+                            <img src="./border.png" id="b1" class="bc3" alt=""> -->
+                    <img class="bg" src="./bg.jpg" alt="">
+    
                 </div>
     
             </div>

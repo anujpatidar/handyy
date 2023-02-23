@@ -88,6 +88,8 @@ function showProductsByCategory(category) {
         name.innerText = limitedName;
     });
 }
+
+
 const shops = [
     { name: "Fabindia", image: ["https://images.unsplash.com/photo-1627237071420-a0875e1c421a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1574&q=80", "https://images.unsplash.com/photo-1627237072145-d66843b1616b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1570&q=80"], desc: "This is a popular chain of stores that sells a wide range of Indian handicrafts, including clothing, home decor, and personal care products." },
     { name: "Anokhi", image: ["https://images.pexels.com/photos/6118897/pexels-photo-6118897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/6118896/pexels-photo-6118896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"], desc: "Anokhi is another well-known brand that specializes in block-printed textiles, clothing, and home furnishings." },
